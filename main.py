@@ -11,7 +11,7 @@ DEPTH = 2
 THREADS = 10
 
 
-def get_urls(soup):
+def get_urls(soup: BeautifulSoup) -> List[str]:
     """
 
     :param soup: page as bs
