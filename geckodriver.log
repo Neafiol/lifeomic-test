@@ -104,3 +104,107 @@ Gtk-Message: 23:29:36.593: Failed to load module "pantheon-filechooser-module"
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1607027812731	geckodriver	INFO	Listening on 127.0.0.1:60845
+1607027812744	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFsmSGh"
+Gtk-Message: 23:36:52.780: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:36:53.746: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:36:54.005: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:36:54.991: Failed to load module "pantheon-filechooser-module"
+1607027815152	Marionette	INFO	Listening on port 37391
+1607027815270	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027815326	Marionette	INFO	Stopped listening on port 37391
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+1607027860737	geckodriver	INFO	Listening on 127.0.0.1:50755
+1607027860753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh8Tnnx"
+Gtk-Message: 23:37:40.783: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:37:41.729: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:37:41.971: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:37:42.922: Failed to load module "pantheon-filechooser-module"
+1607027863022	Marionette	INFO	Listening on port 44047
+1607027863086	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027863120	Marionette	INFO	Stopped listening on port 44047
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+1607027891090	geckodriver	INFO	Listening on 127.0.0.1:34959
+1607027891099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegVno1V"
+Gtk-Message: 23:38:11.139: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:38:12.056: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:38:12.236: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:38:13.146: Failed to load module "pantheon-filechooser-module"
+1607027893250	Marionette	INFO	Listening on port 39847
+1607027893334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027893373	Marionette	INFO	Stopped listening on port 39847
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+1607027917127	geckodriver	INFO	Listening on 127.0.0.1:36989
+1607027917139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemVJlOn"
+Gtk-Message: 23:38:37.170: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:38:38.134: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:38:38.309: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:38:39.374: Failed to load module "pantheon-filechooser-module"
+1607027919516	Marionette	INFO	Listening on port 40355
+1607027919568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027919614	Marionette	INFO	Stopped listening on port 40355
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1607027945628	geckodriver	INFO	Listening on 127.0.0.1:32831
+1607027945634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecFXGN5"
+Gtk-Message: 23:39:05.665: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:39:06.621: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:39:06.802: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:39:07.765: Failed to load module "pantheon-filechooser-module"
+1607027947903	Marionette	INFO	Listening on port 44633
+1607027947958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027947996	Marionette	INFO	Stopped listening on port 44633
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1607027970687	geckodriver	INFO	Listening on 127.0.0.1:57955
+1607027970696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePUTl0i"
+Gtk-Message: 23:39:30.727: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:39:31.668: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:39:31.883: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:39:33.257: Failed to load module "pantheon-filechooser-module"
+1607027973427	Marionette	INFO	Listening on port 37967
+1607027973534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027973569	Marionette	INFO	Stopped listening on port 37967
+1607028001221	geckodriver	INFO	Listening on 127.0.0.1:43485
+1607028001234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepomRyb"
+Gtk-Message: 23:40:01.270: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:40:02.192: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:40:02.392: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:40:03.280: Failed to load module "pantheon-filechooser-module"
+1607028003455	Marionette	INFO	Listening on port 46167
+1607028003566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607028003614	Marionette	INFO	Stopped listening on port 46167
+1607028048774	geckodriver	INFO	Listening on 127.0.0.1:41991
+1607028048779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet7H8KK"
+Gtk-Message: 23:40:48.806: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:40:49.721: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:40:49.900: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:40:50.902: Failed to load module "pantheon-filechooser-module"
+1607028051025	Marionette	INFO	Listening on port 36723
+1607028051114	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 49777, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f30f3c800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 49777, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f30f3c800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
+JavaScript error: https://bavard-widget-prod.web.app/widget.bundle.js, line 2: Error: NetworkError when attempting to fetch resource.
+JavaScript error: https://bavard-widget-prod.web.app/widget.bundle.js, line 2: Error: NetworkError when attempting to fetch resource.
+1607028081397	Marionette	INFO	Stopped listening on port 36723
+1607028098409	geckodriver	INFO	Listening on 127.0.0.1:51895
+1607028098414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXmpnsa"
+Gtk-Message: 23:41:38.438: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:41:39.473: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:41:39.697: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:41:40.874: Failed to load module "pantheon-filechooser-module"
+1607028100997	Marionette	INFO	Listening on port 36191
+1607028101062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bavard-widget-prod.web.app/widget.bundle.js, line 2: Error: NetworkError when attempting to fetch resource.
+[Child 50145, MediaDecoderStateMachine #1] WARNING: Decoder=7f6bec126800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 50145, MediaDecoderStateMachine #1] WARNING: Decoder=7f6bec126800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
+1607028128714	Marionette	INFO	Stopped listening on port 36191

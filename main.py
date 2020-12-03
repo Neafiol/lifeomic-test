@@ -1,14 +1,17 @@
 import time
 from typing import List, Tuple
+import grequests
 
-import requests
 from bs4 import BeautifulSoup
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 from selenium import webdriver
+import requests
+from requests_toolbelt.multipart.encoder import MultipartEncoder
+
+
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
 DEPTH = 2
-THREADS = 10
+THREADS = 20
 
 
 def get_urls(soup: BeautifulSoup) -> List[str]:
@@ -35,13 +38,13 @@ def craul_pages(urls: List[str]) -> Tuple[List[str], List[str]]:
     page_with_forms = []
     res = []
 
-    import grequests
 
     rs = [grequests.get(u, headers={
         "user-agent": USER_AGENT
     }) for u in set(urls)]
 
     for r in grequests.imap(rs, size=THREADS):
+        assert len(r.text) > 1000, "request banned"
         print("complete", r.url, len(r.text))
         soup = BeautifulSoup(r.text, 'html5lib')
         res += get_urls(soup)
@@ -58,6 +61,7 @@ def get_form_results(soup: BeautifulSoup, cookies: dict) -> List[Tuple[str, str]
     :param cookies:
     :return: list of (url, result)
     """
+
     results = []
     for form in soup.find_all("form", {"method": "POST"}) + soup.find_all("d", {"method": "POST"}):
         furl = form["action"]
