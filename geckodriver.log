@@ -80,3 +80,5 @@ Gtk-Message: 23:25:10.488: Failed to load module "pantheon-filechooser-module"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 Gtk-Message: 23:25:11.410: Failed to load module "pantheon-filechooser-module"
 1607027111534	Marionette	INFO	Listening on port 36391
+1607027111643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027142074	Marionette	INFO	Stopped listening on port 36391
