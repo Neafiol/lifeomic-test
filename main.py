@@ -1,4 +1,5 @@
 import time
+from typing import List, Tuple
 
 import grequests as grequests
 import requests
@@ -13,6 +14,11 @@ THREADS = 10
 
 
 def get_urls(soup):
+    """
+
+    :param soup: page as bs
+    :return: all urls in <a> and POST form
+    """
     urls = [a["href"] if "http" in a["href"] else "https://lifeomic.com" + a["href"]
             for a in soup.find_all("a", {"href": True}) if "/" in a["href"]]
 
@@ -22,7 +28,12 @@ def get_urls(soup):
     return urls
 
 
-def parse_part(urls):
+def craul_pages(urls: List[str]) -> Tuple[List[str], List[str]]:
+    """
+    Craul page
+    :param urls: list of pages for check
+    :return: (all pages, pages with form)
+    """
     page_with_forms = []
     res = []
 
@@ -33,7 +44,7 @@ def parse_part(urls):
     }) for u in set(urls)]
 
     for r in grequests.imap(rs, size=THREADS):
-        print("complete", r.url)
+        print("complete", r.url, len(r.text))
         soup = BeautifulSoup(r.text, 'html5lib')
         res += get_urls(soup)
         if "formId" in r.text:
@@ -42,7 +53,13 @@ def parse_part(urls):
     return res, page_with_forms
 
 
-def get_form_results(soup, cookies):
+def get_form_results(soup: BeautifulSoup, cookies: dict) -> List[Tuple[str, str]]:
+    """
+    Make post requests with random data in all forms on page
+    :param soup: page as bs
+    :param cookies:
+    :return: list of (url, result)
+    """
     results = []
     for form in soup.find_all("form", {"method": "POST"}) + soup.find_all("d", {"method": "POST"}):
         furl = form["action"]
@@ -70,14 +87,14 @@ def get_form_results(soup, cookies):
 
 
 if __name__ == "__main__":
-    urls, page_with_forms = parse_part(["https://lifeomic.com"])
-    all_urls = tasks = urls
+    urls, page_with_forms = craul_pages(["https://lifeomic.com"])
+    all_urls = urls
 
     for i in range(DEPTH):
-        urls, forms = parse_part(tasks)
-        tasks = filter(lambda x: x not in all_urls, urls)
+        urls, forms = craul_pages(urls)
+        all_urls_set = set(all_urls)
+        urls = filter(lambda x: x not in all_urls_set, urls)
         all_urls += urls
-        urls = tasks
         page_with_forms += forms
 
     print("Founded", len(set(all_urls)), "urls")
@@ -89,7 +106,7 @@ if __name__ == "__main__":
     form_responses = []
     cookies = {c["name"]: c["value"] for c in driver.get_cookies()}
     print("Founded", len(set(page_with_forms)), "pages with forms")
-    exit(0)
+
     for url in set(page_with_forms):
         driver.get(url)
         time.sleep(2)

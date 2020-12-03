@@ -49,3 +49,34 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: Inv
 [Child 41884, MediaDecoderStateMachine #1] WARNING: Decoder=7fb6bd391400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
 [Child 41884, MediaDecoderStateMachine #1] WARNING: Decoder=7fb6ae11c400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:376
 [Child 41884, MediaDecoderStateMachine #1] WARNING: Decoder=7fb6ae11c400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
+1607026630455	geckodriver	INFO	Listening on 127.0.0.1:46067
+1607026630460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewjJA8S"
+Gtk-Message: 23:17:10.483: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:17:11.406: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:17:11.612: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:17:12.525: Failed to load module "pantheon-filechooser-module"
+1607026632647	Marionette	INFO	Listening on port 35355
+1607026632685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607026691530	geckodriver	INFO	Listening on 127.0.0.1:59103
+1607026691536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileisAyBw"
+Gtk-Message: 23:18:11.569: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:18:12.978: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:18:13.172: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:18:14.203: Failed to load module "pantheon-filechooser-module"
+1607026694290	Marionette	INFO	Listening on port 45955
+1607026694370	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 43591, MediaDecoderStateMachine #1] WARNING: Decoder=7f70df1f4000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 43591, MediaDecoderStateMachine #1] WARNING: Decoder=7f70df1f4000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-m6W5sP/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
+1607026723938	Marionette	INFO	Stopped listening on port 45955
+1607026770218	Marionette	INFO	Stopped listening on port 33131
+1607026771651	Marionette	INFO	Stopped listening on port 35355
+1607027109285	geckodriver	INFO	Listening on 127.0.0.1:40147
+1607027109290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqhd0Tj"
+Gtk-Message: 23:25:09.321: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:25:10.297: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:25:10.488: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:25:11.410: Failed to load module "pantheon-filechooser-module"
+1607027111534	Marionette	INFO	Listening on port 36391
