@@ -7,8 +7,6 @@ from selenium import webdriver
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-
-
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
 DEPTH = 2
 THREADS = 20
@@ -37,7 +35,6 @@ def craul_pages(urls: List[str]) -> Tuple[List[str], List[str]]:
     """
     page_with_forms = []
     res = []
-
 
     rs = [grequests.get(u, headers={
         "user-agent": USER_AGENT
