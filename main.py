@@ -90,7 +90,7 @@ if __name__ == "__main__":
     urls, page_with_forms = craul_pages(["https://lifeomic.com"])
     all_urls = urls
 
-    for i in range(DEPTH):
+    for _ in range(DEPTH):
         urls, forms = craul_pages(urls)
         all_urls_set = set(all_urls)
         urls = filter(lambda x: x not in all_urls_set, urls)

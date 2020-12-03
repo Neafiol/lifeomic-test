@@ -82,3 +82,25 @@ Gtk-Message: 23:25:11.410: Failed to load module "pantheon-filechooser-module"
 1607027111534	Marionette	INFO	Listening on port 36391
 1607027111643	Marionette	WARN	TLS certificate errors will be ignored for this session
 1607027142074	Marionette	INFO	Stopped listening on port 36391
+1607027311737	geckodriver	INFO	Listening on 127.0.0.1:53665
+1607027311742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiQa6gL"
+Gtk-Message: 23:28:31.764: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:28:32.675: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:28:32.857: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:28:33.958: Failed to load module "pantheon-filechooser-module"
+1607027314083	Marionette	INFO	Listening on port 39057
+1607027314169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607027356974	Marionette	INFO	Stopped listening on port 39057
+1607027374623	geckodriver	INFO	Listening on 127.0.0.1:45641
+1607027374632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8JNBaV"
+Gtk-Message: 23:29:34.659: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:29:35.554: Failed to load module "pantheon-filechooser-module"
+Gtk-Message: 23:29:35.735: Failed to load module "pantheon-filechooser-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 23:29:36.593: Failed to load module "pantheon-filechooser-module"
+1607027376743	Marionette	INFO	Listening on port 46041
+1607027376858	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
