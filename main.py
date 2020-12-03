@@ -1,12 +1,10 @@
 import time
 from typing import List, Tuple
 
-import grequests as grequests
 import requests
 from bs4 import BeautifulSoup
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from selenium import webdriver
-from tqdm import tqdm as tqdm
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36"
 DEPTH = 2
