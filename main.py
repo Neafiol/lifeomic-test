@@ -45,7 +45,7 @@ def craul_pages(urls: List[str]) -> Tuple[List[str], List[str]]:
         print("complete", r.url, len(r.text))
         soup = BeautifulSoup(r.text, 'html5lib')
         res += get_urls(soup)
-        if "formId" in r.text:
+        if "formId" in r.text or soup.find("form", {"method": "POST"}):
             page_with_forms.append(r.url)
 
     return res, page_with_forms
